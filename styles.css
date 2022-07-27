@@ -6,14 +6,14 @@ body{
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
-a{
+.header-links{
     color: #E5E7EB;
     text-decoration: none;
 }
 button{
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 10px 40px;
+    padding: 5px 20px;
     border-radius: 5px;
     border: 0px;
 }
@@ -124,8 +124,38 @@ button{
 
 .signup-container{
     flex: 1;
+    margin: 32px 15%;
+    background-color: #3882F6;
+    padding: 24px 64px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.SU-headertext{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.SU-bodytext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-container button{
+    border: 1px solid #F9FAF8;
 }
 
 .footer{
     background-color: #1F2937;
+    display: flex;
+    padding: 32px 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link{
+    text-decoration: solid;
+    color:#3882F6;
+}
+.footer-link:visited{
+    color:#3882F6;
 }
