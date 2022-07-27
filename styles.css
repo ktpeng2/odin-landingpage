@@ -104,7 +104,23 @@ button{
 .quote-container{
     background-color: #E5E7EB;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 15% 64px;
 }
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    align-self: flex-start;
+}
+.quote-author{
+    align-self: flex-end;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
 
 .signup-container{
     flex: 1;
